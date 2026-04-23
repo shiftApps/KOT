@@ -2,29 +2,53 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>items</key>
+	<key>KOT_TimeRecorder.ipa</key>
 	<array>
 		<dict>
-			<key>assets</key>
+			<key>architectures</key>
 			<array>
-				<dict>
-					<key>kind</key>
-					<string>software-package</string>
-					<key>url</key>
-					<string>https://github.com/shiftApps/KOT/releases/download/1.19/KOT_TimeRecorder.ipa</string>
-				</dict>
+				<string>arm64</string>
 			</array>
-			<key>metadata</key>
+			<key>buildNumber</key>
+			<string>3.1.0</string>
+			<key>certificate</key>
 			<dict>
-				<key>bundle-identifier</key>
-				<string>com.shift.KOT-TimeRecorder</string>
-				<key>bundle-version</key>
-				<string>1.19</string>
-				<key>kind</key>
-				<string>software</string>
-				<key>title</key>
-				<string>KING OF TIME</string>
+				<key>SHA1</key>
+				<string>94AEE36F545F5E774B76C39D0ECAE2D0BE9327AB</string>
+				<key>dateExpires</key>
+				<string>2026/12/03</string>
+				<key>type</key>
+				<string>Apple Distribution</string>
 			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>VZQ4YZUZ5K.com.shift.KOT-TimeRecorder</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>VZQ4YZUZ5K</string>
+				<key>get-task-allow</key>
+				<false/>
+			</dict>
+			<key>name</key>
+			<string>KOT_TimeRecorder.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>cf40830e-cb40-4476-9cf0-b3238a50828a</string>
+				<key>dateExpires</key>
+				<string>2026/12/03</string>
+				<key>name</key>
+				<string>iOS Team Ad Hoc Provisioning Profile: com.shift.KOT-TimeRecorder</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>VZQ4YZUZ5K</string>
+				<key>name</key>
+				<string>SHIFT Co.,Ltd.</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>3.1</string>
 		</dict>
 	</array>
 </dict>
